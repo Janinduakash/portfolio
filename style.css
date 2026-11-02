@@ -226,36 +226,29 @@ header{
     transform: translateY(-5px);
 }
 
-.home-image{
-    width: 280px;
-    height: 280px;
-
+.home-image {
+    width: 320px;
+    height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: relative;
     flex-shrink: 0;
-    margin-right: 30px;
-    margin:0;
-    
+    margin: 0;
 }
 
 .profile-circle {
-    width: 240px;
-    height: 240px;
-
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     border: 5px solid var(--main-color);
-
     box-shadow: 0 0 35px var(--main-color);
-
     overflow: hidden;
-
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(145deg, #102e50, #061020);
+    flex-shrink: 0;
 }
 
 .profile-circle img {
@@ -264,6 +257,8 @@ header{
     object-fit: cover;
     object-position: center;
 }
+
+
 
 .section-title {
     font-size: 30px;
